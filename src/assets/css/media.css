@@ -1,0 +1,31 @@
+
+@media (max-width: 990px){
+
+    .menu-icon{
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .heroButtons{
+        flex-direction: column;
+        padding-top: 82px;
+        padding-bottom: 70px;
+    
+    }
+    .heroButtons > .btn:first-child {
+        margin-right: 0px; 
+        margin-bottom: 28px;
+    }
+    .title{
+        font-size: 45px;
+        padding-top: 60px;
+
+    }
+    .main-home > p {
+        margin-top: 20px;
+        font-size: 20px;}
+    
+}
