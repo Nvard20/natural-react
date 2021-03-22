@@ -5,7 +5,10 @@
 :root {
     --primary: #fff;
   }
-  
+  .box{
+    margin-top: 79px;
+
+  }
 li{
     list-style: none;
 }
@@ -20,6 +23,8 @@ li{
 .list{
     display: flex;
     justify-content: center;
+    padding-right: 50px;
+
 }
 .list > li{
     margin-left: 15px;
@@ -27,13 +32,19 @@ li{
 
 }
 .navbar{
-    background-image: linear-gradient(to right, #dadada, #c8c7d7, #b4b5d3, #9da3d1, #8393ce, #7194cf, #5c95d0, #4296ce, #4ba4cb, #62b1c7, #7ebcc3, #9bc6c3);
-    padding: 0px 52px;
+    padding: 0px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+background-color: #bec1c3;
+position: fixed;
+z-index: 999;
+width: 100%;
+top: 0;
 
+}
+.active-navbar{
+     background-image: linear-gradient(to right, #dadada, #c8c7d7, #b4b5d3, #9da3d1, #8393ce, #7194cf, #5c95d0, #4296ce, #4ba4cb, #62b1c7, #7ebcc3, #9bc6c3);
 }
 .active-link{
     border-bottom: 2px solid;
@@ -44,8 +55,6 @@ li{
     color: white;
 
 }
-
-
 .count{
     color: #FFD012;
 
@@ -68,6 +77,10 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+}
+.logo{
+  padding-left: 50px;
 
 }
 .logo-img{

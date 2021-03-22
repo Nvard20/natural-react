@@ -3,6 +3,8 @@
 
     .menu-icon{
         display: block;
+        padding-right: 50px;
+
     }
     .list{
         display: none;
