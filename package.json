@@ -1,9 +1,8 @@
-{   
+{
     "name": "my-react",
     "version": "0.1.0",
     "private": true,
-    "homepage":"http://nvard20.github.io/natural/",
-
+    "homepage":"http://nvard20.github.io/reactNatural/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",
