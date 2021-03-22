@@ -47,12 +47,7 @@ export default function Cards() {
                             path='/gallery'
                             label='Adventure'
                          />
-                            <CardItem
-                            src='img/img-2.jpg'
-                            text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                            path='/gallery'
-                            label='Adventure'
-                         />
+                          
                     </ul>
                  </div>
             </div>
