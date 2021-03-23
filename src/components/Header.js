@@ -21,9 +21,12 @@ const Changebackground = () =>{
 };
 window.addEventListener('scroll',Changebackground);
 
+
+
     return (
         <div className={ navbar ? 'navbar active-navbar' : 'navbar'}>
-            <div className="logo"> <NavLink to="/"  exact  className="logo-img"><img src="img/logo.png"/></NavLink></div>
+          
+            <div className="logo" > <NavLink to="/"  exact  className="logo-img"><img src="img/logo.png"/></NavLink></div>
             <ul className='list'>
         
                 <li>

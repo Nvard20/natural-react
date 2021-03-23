@@ -4,7 +4,6 @@ import './assets/css/media.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import routes from  './routes';
 import Header from './components/Header';
-import Footer from './components/Footer';
 
 function App (){
 
@@ -25,7 +24,7 @@ function App (){
            ))
 
          }
-        <Footer/>
+    
       </Router>
     
     
