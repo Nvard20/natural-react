@@ -36,11 +36,12 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-background-color: #bec1c3;
-position: fixed;
-z-index: 999;
-width: 100%;
-top: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,85,121,1) 0%, rgba(114,219,240,1) 30%);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
 
 }
 .active-navbar{
