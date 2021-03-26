@@ -461,15 +461,31 @@ li{
 .icons {
   display: flex;
   align-items: center;
-  font-size: 24px;
+
+}
+
+.delete {
   cursor: pointer;
+  margin-right: 12px;
+  margin-top: 2px;
 }
 
-.delete-icon {
-  margin-right: 5px;
-  color: #fff;
-}
+.edit{
+  cursor: pointer;
 
-.edit-icon {
-  color: #fff;
+}
+.update > svg{
+  color: white;
+  cursor: pointer;
+  font-size: 23px;
+
+}
+.editInput{
+      padding: 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 22px;
+    border-radius: 6px
 }

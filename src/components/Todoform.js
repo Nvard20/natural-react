@@ -1,8 +1,8 @@
-import React,   {useState} from 'react';
+import React,   {useState,useEffect,useRef} from 'react';
 
 function  Todoform(props) {
 
-    const [input, setInput] = useState('');
+    const [input, setInput] = useState();
 
     const handleChange = e => {
         
@@ -22,15 +22,25 @@ function  Todoform(props) {
         setInput('');
     }
 
-
+    
     return (
         <form className='todo-form' onSubmit={HandleSubmit}>
-            
-            <input type='text' placeholder='Add Contacts' value={input} name='text' className='todo-input' onChange = {handleChange}/>
-            <button className='todo-button'>Add </button>
+
           
-        </form>
-    );
+            <input
+                placeholder='Add a todo'
+                value={input}
+                onChange={handleChange}
+                name='text'
+                className='todo-input'
+             
+            />
+            <button  className='todo-button'>
+                Add todo
+            </button>
+       
+            </form>
+        );
 }
 
 export default Todoform;
