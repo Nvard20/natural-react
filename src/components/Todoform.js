@@ -2,7 +2,7 @@ import React,   {useState,useEffect,useRef} from 'react';
 
 function  Todoform(props) {
 
-    const [input, setInput] = useState();
+    const [input, setInput] = useState('');
 
     const handleChange = e => {
         

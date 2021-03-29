@@ -29,9 +29,10 @@ function TodoList() {
     
       function submitEdits(id) {
         const updatedTodos = [...todos].map((list) => {
-          if (list.id === id) {
+          if (list.id === id && editingText !== '') {
             list.text = editingText;
           }
+
           return list;
         });
          setTodos(updatedTodos);
@@ -44,27 +45,23 @@ function TodoList() {
                 <ul className='listGroup'>
                     {todos.map((list,index) => (
                         <li className={list.isCompleted ? "todo-row complete" : "todo-row"} key={index}>
-                    
-                            {list.id === todoEditing ? (
-                                <input
-                                    type="text"
-                                 
-                                    onChange={(e) => setEditingText(e.target.value)} className='editInput' />
-                                    
-                                ) : (
-                                    list.text
-                                )}
-                                {list.id === todoEditing ? (
+                            {list.text}
+                            {list.id === todoEditing  ? (
+                                <>
+                                
+                                   <input type="text" onChange={(e) => setEditingText(e.target.value)} className='editInput' />
                                    <div className='update' onClick={() => submitEdits(list.id)}> <IoIosAddCircleOutline /></div>
-                                    ) : (
-                                   
-                               
+                                </>
+                                ) :
+                                (
                                     <div className='icons'>
                                         <div className='delete' onClick={() => handleRemove(list.id)}> <FaWindowClose /></div>
                                         <div className='edit'onClick={() => setTodoEditing(list.id)} ><FaEdit/> </div>
                                         
                                     </div>
-                             )}
+                                )
+                            }
+                              
                         </li>
                     ))}
                 </ul>
