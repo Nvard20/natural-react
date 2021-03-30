@@ -7,7 +7,7 @@ function TodoList() {
     const [todos, setTodos] = useState([]);
     const [todo, setTodo] = useState("");
     const [todoEditing, setTodoEditing] = useState(null);
-    const [editingText, setEditingText] = useState("");
+    const [editingText, setEditingText] = useState('');
 
     function AddTodo(todo){
 

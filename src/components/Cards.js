@@ -28,7 +28,7 @@ export default function Cards() {
                             text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                             path='/gallery'
                             label='Adventure'
-                         />
+                            />
                              <CardItem
                             src='img/img-8.jpg'
                             text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
