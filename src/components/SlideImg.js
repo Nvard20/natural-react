@@ -1,5 +1,6 @@
 import React from 'react';
  export  const slide = [
+     
         {
             img: 'img/img-2.jpg'
         },

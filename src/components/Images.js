@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import 'swiper/swiper-bundle.min.css';
 
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y ,Autoplay   ]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y ,Autoplay ]);
 
 export default function Images() {
   
@@ -23,14 +23,14 @@ export default function Images() {
     <div className='slide-container'>
      
       <Swiper
-
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay 
+      autoplay={true}
+      loop= {true}
       onSlideChange={() => console.log('slide change')}
-    
       >
+      
           {image_slider}
     
       </Swiper>
