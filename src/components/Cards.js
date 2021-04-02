@@ -5,7 +5,7 @@ import  CardItem  from './CardItem';
 export default function Cards() {
 
     return(
-        <div className="cards">
+        <div className="cards" id='cards'>
             <h1>Check out these EPIC! Destinations</h1>
             
             <div className="cards__container">

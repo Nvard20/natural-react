@@ -2,6 +2,8 @@ import React from 'react';
 import Home from './page/Home';
 import Gallery from './page/Gallery';
 import Contacts from './page/Contacts';
+
+
 export default[
     {
         path: "/",

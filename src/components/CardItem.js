@@ -14,6 +14,7 @@ export default function CardItem(props) {
            </Link>
            <div className='cards__item__info'>
                 <h5 className='cards__item__text'>{props.text}</h5>
+                
             </div>
        </li>
    

@@ -30,10 +30,16 @@ window.addEventListener('scroll',Changebackground);
             <ul className='list'>
         
                 <li>
-                    <NavLink to="/contacts" activeClassName="active-link" className="link">Contacts</NavLink>
+                    <NavLink to="/contacts" activeClassName="active-link" className="link">Add to do</NavLink>
                 </li>
-                
+             
+        
+                <li>
+                    <NavLink to="/gallery" activeClassName="active-link" className="link">Gallery</NavLink>
+                </li>
+             
             </ul>
+            
             <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fa fa-close' : ' fa fa-align-justify'} />
             </div>

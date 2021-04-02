@@ -5,7 +5,6 @@ import {FaEdit} from 'react-icons/fa';
 import {IoIosAddCircleOutline} from 'react-icons/io';
 function TodoList() {
     const [todos, setTodos] = useState([]);
-    const [todo, setTodo] = useState("");
     const [todoEditing, setTodoEditing] = useState(null);
     const [editingText, setEditingText] = useState('');
 
@@ -63,9 +62,10 @@ function TodoList() {
                             }
                               
                         </li>
-                    ))}
+                    )) }
                 </ul>
-             ) : null}
+             ) : null
+            }
         </div>
     );
 }

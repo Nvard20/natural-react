@@ -14,6 +14,11 @@ export const Aside = styled.div`
     color: white;
     font-family: sans-serif;
     font-size: 20px;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        background: green;
+    }
 `
 
 export const Div = styled.div`
@@ -29,6 +34,10 @@ export const Div = styled.div`
     padding: 10px;
     font-family: sans-serif;
     text-align: center;
-    
+    transition: .2s ;
+
+    &:hover{
+        background: gray;
+    }
 `
 
