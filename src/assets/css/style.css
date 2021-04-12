@@ -507,3 +507,7 @@ li{
 .slide-container{
   margin-top: 110px;
 }
+.swiper-pagination-bullet{
+  width: 13px !important;
+  height: 13px !important;
+}

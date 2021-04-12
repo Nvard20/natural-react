@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/css/style.css';
 import './assets/css/media.css';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import routes from  './routes';
 import Header from './components/Header';
 

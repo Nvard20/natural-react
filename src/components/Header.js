@@ -32,8 +32,6 @@ window.addEventListener('scroll',Changebackground);
                 <li>
                     <NavLink to="/contacts" activeClassName="active-link" className="link">Add to do</NavLink>
                 </li>
-             
-        
                 <li>
                     <NavLink to="/gallery" activeClassName="active-link" className="link">Gallery</NavLink>
                 </li>

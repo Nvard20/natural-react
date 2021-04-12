@@ -12,10 +12,10 @@ export default function CardItem(props) {
                     <img src={props.src} alt='Travel img' className='cards__item__img'/>
                </figure>
            </Link>
-           <div className='cards__item__info'>
+          <div className='cards__item__info'>
                 <h5 className='cards__item__text'>{props.text}</h5>
                 
-            </div>
+          </div>
        </li>
    
   )
