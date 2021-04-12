@@ -13,8 +13,8 @@ export default function Home() {
         <div className='box'>         
              <Main/>
              <Cards/>
-             <Aside primary>Aside Elementss</Aside>
-             <Div  >Div's Elements </Div>
+             <Aside primary>Asides's Elements</Aside>
+             {/* <Div>Asides's Elements </Div> */}
              <Footer/>
            
          </div>

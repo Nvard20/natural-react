@@ -14,7 +14,7 @@ export default function Images() {
 
    return (
     <SwiperSlide className='slide-img' key={index}>
-      <img src={image.img}  />
+      <img src={process.env.PUBLIC_URL + '/' + image.img}  />
     </SwiperSlide>
    )
  
