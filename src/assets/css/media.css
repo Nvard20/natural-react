@@ -31,3 +31,31 @@
         font-size: 20px;}
     
 }
+@media (max-width: 450px){
+    .cards__item__pic-wrap{
+        width: 240px;
+    }
+    .btn--large {
+        padding: 10px 22px;
+        font-size: 13px;
+    }
+    .title{
+        font-size: 37px;
+
+    }
+    .heroButtons {
+        flex-direction: column;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    .cards > h1 {
+        font-size: 25px;
+    }
+    .slide-img {
+        margin: auto;
+        height: 480px !important;
+    }
+    .todo-form {
+        padding: 40px;
+    }
+}
