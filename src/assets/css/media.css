@@ -58,4 +58,10 @@
     .todo-form {
         padding: 40px;
     }
+    .logo {
+        padding-left: 13px;
+    }
+    .menu-icon {
+        padding-right: 13px;
+    }
 }
