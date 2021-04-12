@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/natural-react/static/css/main.f8bac454.chunk.css",
+    "main.js": "/natural-react/static/js/main.8f94a53e.chunk.js",
+    "main.js.map": "/natural-react/static/js/main.8f94a53e.chunk.js.map",
+    "runtime-main.js": "/natural-react/static/js/runtime-main.d5b11e19.js",
+    "runtime-main.js.map": "/natural-react/static/js/runtime-main.d5b11e19.js.map",
+    "static/css/2.d56f777a.chunk.css": "/natural-react/static/css/2.d56f777a.chunk.css",
+    "static/js/2.21caa46b.chunk.js": "/natural-react/static/js/2.21caa46b.chunk.js",
+    "static/js/2.21caa46b.chunk.js.map": "/natural-react/static/js/2.21caa46b.chunk.js.map",
+    "index.html": "/natural-react/index.html",
+    "static/css/2.d56f777a.chunk.css.map": "/natural-react/static/css/2.d56f777a.chunk.css.map",
+    "static/css/main.f8bac454.chunk.css.map": "/natural-react/static/css/main.f8bac454.chunk.css.map",
+    "static/js/2.21caa46b.chunk.js.LICENSE.txt": "/natural-react/static/js/2.21caa46b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/natural-react/static/media/img-home.c034239e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5b11e19.js",
+    "static/css/2.d56f777a.chunk.css",
+    "static/js/2.21caa46b.chunk.js",
+    "static/css/main.f8bac454.chunk.css",
+    "static/js/main.8f94a53e.chunk.js"
+  ]
+}
